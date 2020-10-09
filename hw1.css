@@ -1,0 +1,36 @@
+body {
+    padding: 1rem;
+}
+
+header {
+    background: #b3b3b3;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #000000;
+    background: #adadaf;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.left {
+    display: none;
+}
+
+.right {
+    background: #6d6d6d;
+}
+
+.right h2 {
+    color: #123352;
+    text-transform: uppercase;
+    font-weight: bolder;
+}

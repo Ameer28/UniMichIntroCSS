@@ -70,3 +70,41 @@ nav a:hover {
     text-transform: uppercase;
     font-weight: bolder;
 }
+
+table {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 2rem;
+}
+
+table th {
+    background: linear-gradient(#03b384, #03b42d);
+    padding: 1rem;
+    color: #fff;
+    border: 1px solid #123352;
+}
+
+table th:first-child {
+    text-align: left;
+}
+
+table tr {
+    background: #03b384;
+}
+
+table tr:hover {
+    opacity: 0.7;
+}
+
+table td {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+table td:first-child {
+    text-align: left;
+    padding-left: 1rem;
+}
